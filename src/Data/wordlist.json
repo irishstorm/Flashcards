@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Czesc",
+    "translation": "Hello",
+    "hint": "something you would say to someone when you meet each other"
+  },
+  {
+    "question": "Dziękuje",
+    "translation": "Thank you",
+    "hint": "This is placeholder text"
+  },
+  {
+    "question": "Wszystko",
+    "translation": "Everything",
+    "hint": "This is placeholder text"
+  },
+  {
+    "question": "Powodzenia",
+    "translation": "Good luck",
+    "hint": "This is placeholder text"
+  },
+  {
+    "question": "Zakodowałem",
+    "translation": "I coded",
+    "hint": "This is placeholder text"
+  }
+]
