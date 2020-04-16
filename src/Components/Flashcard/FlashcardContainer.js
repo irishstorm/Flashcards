@@ -3,7 +3,6 @@ import styled from "@emotion/styled";
 import Flashcard from "./Flashcard";
 import DevWordlist from "./Dev/DevWordlist";
 import DevToDoList from "./Dev/DevToDoList";
-import Test from "./Crud/test";
 import axios from "axios";
 
 const FlashcardContainer = (props) => {
