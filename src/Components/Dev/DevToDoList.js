@@ -5,8 +5,11 @@ const DevToDoList = (props) => {
     <div className="row">
       <div className="col-sm-4">
         <div className="card">
-          <div class="card-header">To Do List</div>
+          <div className="card-header">To Do List</div>
           <ul className="list-group list-group-flush">
+            <li className="list-group-item">
+              Replace and Delete wordlist entries
+            </li>
             <li className="list-group-item">
               Make a blog to keep track of current learning
             </li>
@@ -16,22 +19,21 @@ const DevToDoList = (props) => {
       </div>
 
       <div className="div col-sm-4">
-        <div class="card">
-          <div class="card-header">Features</div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Flashcards</li>
-            <li class="list-group-item">Vocabulary</li>
-            <li class="list-group-item">Verbs</li>
-            <li class="list-group-item">Blog</li>
-            <li class="list-group-item">Quiz</li>
+        <div className="card">
+          <div className="card-header">Features</div>
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">Flashcards</li>
+            <li className="list-group-item">Vocabulary</li>
+            <li className="list-group-item">Blog</li>
+            <li className="list-group-item">Quiz</li>
           </ul>
         </div>
       </div>
 
       <div className="div col-sm-4">
-        <div class="card">
-          <div class="card-header">Finished ToDo</div>
-          <ul class="list-group list-group-flush">
+        <div className="card">
+          <div className="card-header">Finished ToDo</div>
+          <ul className="list-group list-group-flush">
             <li className="list-group-item">
               <strike>
                 Iterate thru the json file by using the next button

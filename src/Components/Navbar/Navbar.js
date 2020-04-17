@@ -14,36 +14,34 @@ function Navbar() {
           <Brand>Flashcards</Brand>
         </div>
 
-        <ul class="navbar-nav">
+        <ul className="navbar-nav">
           <Link to="/">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
-                Home <span class="sr-only">(current)</span>
-              </a>
+            <li className="nav-item active">
+              <span className="nav-link" href="/">
+                Home <span className="sr-only">(current)</span>
+              </span>
             </li>
           </Link>
 
           <Link to="/flashcards">
-            <li class="nav-item">
-              <a class="nav-link" href="/">
+            <li className="nav-item">
+              <span className="nav-link" href="/flashcards">
                 Flashcards
-              </a>
+              </span>
             </li>
           </Link>
 
           <Link to="/wordlist">
-            <li class="nav-item">
-              <a class="nav-link" href="/">
-                WordList
-              </a>
+            <li className="nav-item">
+              <span className="nav-link">WordList</span>
             </li>
           </Link>
 
           <Link to="/todo">
-            <li class="nav-item">
-              <a class="nav-link" href="/">
+            <li className="nav-item">
+              <span className="nav-link" href="/todo">
                 TODO
-              </a>
+              </span>
             </li>
           </Link>
         </ul>
