@@ -1,23 +1,27 @@
 import React from "react";
-import styled from "@emotion/styled";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import "./App.css";
 import FlashcardContainer from "./Components/Flashcard/FlashcardContainer";
+import Navbar from "./Components/Navbar/Navbar";
+import Home from "./Components/Home/Home";
+import WordList from "./Components/Wordlist/WordList";
+import ToDo from "./Components/Dev/DevToDoList";
 
 function App() {
-  const Brand = styled.h3`
-    color: white;
-  `;
-
   return (
-    <div className="App">
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <Brand>Flashcards</Brand>
-        </div>
-      </nav>
+    <Router>
+      <div className="App">
+        <Navbar></Navbar>
 
-      <FlashcardContainer></FlashcardContainer>
-    </div>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/flashcards" component={FlashcardContainer} />
+          <Route path="/wordlist" component={WordList} />
+          <Route path="/todo" component={ToDo} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

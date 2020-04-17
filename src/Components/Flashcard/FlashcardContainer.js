@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import styled from "@emotion/styled";
 import Flashcard from "./Flashcard";
-import DevWordlist from "./Dev/DevWordlist";
-import DevToDoList from "./Dev/DevToDoList";
 import axios from "axios";
 
 const FlashcardContainer = (props) => {
@@ -79,9 +77,6 @@ const FlashcardContainer = (props) => {
           </button>
         </FlashcardNavbar>
       </Container>
-
-      <DevWordlist></DevWordlist>
-      <DevToDoList></DevToDoList>
     </div>
   );
 };
